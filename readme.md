@@ -12,4 +12,4 @@
 
 [Deploy](https://nikimix.github.io/async-race/)
 
-For starting of project necessary download (local server) async-race-api and start next commands: npm i, npm start. 
+For starting of project necessary download (local server) async-race-api https://github.com/mikhama/async-race-api
