@@ -11,3 +11,5 @@
 [Pull Request](https://github.com/nikimix/async-race/pull/1)
 
 [Deploy](https://nikimix.github.io/async-race/)
+
+For starting of project necessary download (local server) async-race-api and start next commands: npm i, npm start. 
