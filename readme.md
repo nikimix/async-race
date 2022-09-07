@@ -8,6 +8,6 @@
 - Async coding / Promises
 - JS Animations
 
-[Pull Request](https://github.com/ogimly/async-race/pull/1)
+[Pull Request](https://github.com/nikimix/async-race/pull/1)
 
-[Deploy](https://ogimly.github.io/async-race)
+[Deploy](https://nikimix.github.io/async-race/)
