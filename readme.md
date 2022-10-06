@@ -13,3 +13,4 @@
 [Deploy](https://nikimix.github.io/async-race/)
 
 For starting of project necessary download (local server) async-race-api https://github.com/mikhama/async-race-api
+and install necessary requirements "npm i" command and run it "npm start" command.
