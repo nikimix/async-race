@@ -1,0 +1,168 @@
+.error-on-update,
+.message-on-victory {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  color: red;
+  opacity: 0.9;
+  font-size: 3rem;
+}
+
+body {
+  margin: 2rem;
+  background-color: #aeb6ff;
+}
+.btn-to-garage,
+.btn-to-winners {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+}
+
+.btn-to-garage {
+  margin-right: 2rem;
+}
+.garage-control {
+  margin: 1rem 0;
+}
+
+.car-updater,
+.car-builder,
+.race-control {
+  margin: 0.3rem 0;
+  display: flex;
+  column-gap: 0.3rem;
+}
+
+.btn-update,
+.btn-create,
+.btn-start-race,
+.btn-stop-race,
+.btn-generate-cars {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.btn-generate-cars {
+  margin-top: 0.3rem;
+}
+
+.input {
+  cursor: pointer;
+}
+
+.garage-list {
+  margin-bottom: 1rem;
+}
+
+.total-cars {
+  font-size: 1.3rem;
+  margin: 0.1rem 0;
+}
+.btn-sort-time,
+.btn-sort-wins {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-sort-wins .btn-sort-wins--asc {
+  background-color: aqua;
+}
+
+.wiiners-table {
+  margin: 5% auto;
+  font-size: 1rem;
+  font-weight: 600;
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: collapse;
+  border: 3px solid black;
+  text-align: center;
+}
+
+td {
+  padding: 1rem 0;
+  border: 1px solid black;
+}
+
+th {
+  border: 2px solid black;
+}
+
+.page-number,
+.total-winners {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.btn-prev,
+.btn-next {
+  display: flex-inline;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0 1rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+}
+
+.btn-prev {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.btn-next {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.car {
+  background-image: url(./assets/img/finish.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 80px) bottom;
+  background-size: 3rem;
+  overflow-x: hidden;
+
+  @media(max-width: 768px) {
+    background-position: calc(100% - 80px) bottom;
+  }
+}
+
+.road {
+  border: none;
+  border-top: 3px dashed rgb(0, 0, 0);
+  color: #fff;
+  background-color: transparent;
+  max-width: 100%;
+  width: 100%;
+}
+
+.btn-start-car,
+.btn-stop-car,
+.btn-select,
+.btn-remove {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.3rem;
+  padding: 0 0.2rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.car-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
